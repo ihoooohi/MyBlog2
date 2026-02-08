@@ -1,0 +1,28 @@
+---
+layout: home
+
+hero:
+  name: 技术博客
+  text: Obsidian Notes
+  tagline: 算法笔记 & 技术总结
+  actions:
+    - theme: brand
+      text: 开始阅读 →
+      link: /leetcode-notes/
+    - theme: alt
+      text: 关于我
+      link: /about
+
+features:
+  - title: LeetCode 题解
+    details: 滑动窗口、二分查找、动态规划、树等高频算法题解
+    icon: 📚
+  - title: 数据结构
+    details: 数组、链表、栈、队列、堆等基础数据结构详解
+    icon: 🔧
+  - title: 清晰排版
+    details: 基于 VitePress 的清爽阅读体验，支持搜索和目录导航
+    icon: ✨
+
+footer: false
+---

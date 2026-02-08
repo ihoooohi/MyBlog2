@@ -1,0 +1,15 @@
+**初始化二维数组** 
+
+1.初始化`m*n`的二维数组
+
+```c++
+vector<vector<int>> array(m, vector<int>(n, 0));
+```
+2.每行动态扩容  [[leetcode/动态规划/动态规划#118.杨辉三角（dp + 构造二维数组）]]
+```c++
+vector<vector<int>> dp(numRows);
+```
+![](//images/3a3b5c27db1afb0be78c9dbf61f51079.jpg)
+
+构造二维数组时，每遍历一行要resize该行的空间大小 `dp[n].resize(n+1, 1);
+
