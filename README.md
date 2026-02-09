@@ -114,3 +114,4 @@ MIT License
 ---
 
 *Built with ❤️ using VitePress + Obsidian*
+# Auto Deploy
