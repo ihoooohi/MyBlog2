@@ -4,6 +4,7 @@ export default defineConfig({
   title: "技术博客",
   description: "Obsidian Notes 技术笔记",
   lang: 'zh-CN',
+  base: process.env.VITEPRESS_BASE || '/',
   lastUpdated: true,
   cleanUrls: false,
   trailingSlash: true,
