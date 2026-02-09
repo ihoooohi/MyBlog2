@@ -9,12 +9,9 @@ export default defineConfig({
   trailingSlash: true,
   ignoreDeadLinks: true,
   
-  // GitHub Pages 配置
-  base: '/MyBlog2/',
-  
   // Head 配置
   head: [
-    ['link', { rel: 'icon', href: '/MyBlog2/favicon.svg', type: 'image/svg+xml' }]
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]
   ],
   
   themeConfig: {
@@ -60,11 +57,6 @@ export default defineConfig({
     outline: {
       level: [2, 3],
       label: '目录'
-    },
-    
-    editLink: {
-      pattern: 'https://github.com/yourusername/quartz-blog/edit/main/docs/:path',
-      text: '编辑此页'
     }
   }
 })
